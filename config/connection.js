@@ -1,0 +1,1 @@
+//require dotenv and sequelize coonnection settup
