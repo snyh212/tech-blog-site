@@ -10,3 +10,5 @@ const Comment = require('./Comment');
 //post many comment
 //comment belong to user
 //comment belong to post
+
+module.exports = {User, Post, Comment};

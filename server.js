@@ -39,4 +39,4 @@ app.set('view engine', 'handlebars');
 //sequelize listening
 sequelize.sync({ force: true }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
-  });
+});
