@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
         .then(dbUserData => {
             if (!dbUserData) {
                 // if user with nonexistent id is searched, return error 404 with message. 
-                res.status(404).json({ message: 'No user found with this id' });
+                res.status(404).json({ message: 'No user with this id' });
                 return;
             }
             res.json(dbUserData);
