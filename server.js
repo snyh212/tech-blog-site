@@ -26,6 +26,8 @@ const sess = {
   }),
 };
 
+app.use(session(sess));
+
 //express use sess,json,url,static
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
